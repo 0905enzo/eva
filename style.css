@@ -17,6 +17,7 @@ h4 {
 h2 {
     font-size: 48px;
     font-weight: extra-bold;
+
 }
 
 h5 {
@@ -40,14 +41,11 @@ img {
     display: flex;
     flex-direction: row;
     gap: 16px;
-    justify-content: flex-end;
+   
     
 }
 
 .top {
-    background-color: rgb(114, 0, 0);
-}
-
-.opt {
-    justify-content: flex-end;
+    background-color: rgb(197, 48, 48);
+    padding: 22px;
 }
