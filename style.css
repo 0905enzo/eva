@@ -40,12 +40,14 @@ img {
 .head {
     display: flex;
     flex-direction: row;
-    gap: 16px;
-   
-    
+    gap: 16px;  
 }
 
 .top {
     background-color: rgb(197, 48, 48);
     padding: 22px;
+}
+
+.opt {
+    text-align: end;
 }
