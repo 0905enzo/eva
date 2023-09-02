@@ -54,7 +54,7 @@ display: flex;
 justify-content: center;
 }
 
-img {
+.homescreen {
     width: 600px;
     height: auto;
     display: flex;
@@ -110,16 +110,46 @@ footer {
     flex-wrap: wrap;
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
-h6 {
-    font-size: 16px;
+.contact {
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.ask {
+    font-size: 18px;
     font-weight: bold;
 }
 
 .ton {
     border: 2px solid rgb(91, 3, 3);
-    font-size: 16px;
-    margin: 10px;
+    font-size: 14px;
+    margin: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.i {
+    width: 200px;
+    height: auto;
+    flex: 0 1 1;
+    border: 4px solid black;
+    align-items: center;
+   
+}
+
+.e {
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 1 0;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+   width: 200px;
+   text-align: center;
 }
